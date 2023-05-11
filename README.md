@@ -1,3 +1,3 @@
 Professional Portfolio 2023
 
-jaividyasagar.netlify.app
+https://jaividyasagar.netlify.app/
