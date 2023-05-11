@@ -355,7 +355,7 @@ img {
 
 .home__social-icon:hover {
     color: var(--first-color-alt);
-    transform: translateY(-7px);
+    transform: translateY(-8px);
 }
 #github-icon {
     color: var(--github-icon);
@@ -484,7 +484,9 @@ img {
     color: var(--first-color-alt);
 }
 
-
+.leetcode-link-icon {
+    font-size: var(--small-font-size);
+}
 /*==================== ABOUT ====================*/
 .about__img {
     /* width: 100px; */
@@ -1208,7 +1210,7 @@ img {
 }
 
 .footer__logo:hover {
-    transform: translateY(-7px);
+    transform: translateY(-8px);
 }
 /*========== SCROLL UP ==========*/
 .scrollup {
