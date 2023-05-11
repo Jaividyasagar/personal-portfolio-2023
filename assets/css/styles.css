@@ -672,6 +672,10 @@ img {
 .skills__open .skills__arrow {
     transform: rotate(-180deg);
 }
+
+.skill-tech-imgs {
+    width: 80px;
+}
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
     display: flex;
