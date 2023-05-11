@@ -251,7 +251,11 @@ function sendEmail() {
   else {
     emailjs.send("service_vjgs4uk", "template_59olixn", params).then(function(res) {
       alert("Success✅! Your message has been sent to Jai Vidyasagar R." + "\n" + "Thanks for visiting my site🖖")
-    })
+    });
+    document.getElementById("inputName").value = "";
+    document.getElementById("inputEmail").value = "";
+    document.getElementById("inputSubject").value = "";
+    document.getElementById("inputMessage").value = "";
   }
   
 }
