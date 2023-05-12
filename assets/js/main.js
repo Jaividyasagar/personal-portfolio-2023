@@ -1,5 +1,5 @@
 (function(){
-  emailjs.init("RZ19xVS2CnTMGj7HV");
+  emailjs.init("6fCyooqccPtelidiH");
 })();
 
 
@@ -249,7 +249,7 @@ function sendEmail() {
     alert("Kindly fill all the boxes!❌")
   }
   else {
-    emailjs.send("service_vjgs4uk", "template_59olixn", params).then(function(res) {
+    emailjs.send("service_3vd16yu", "template_w7gxwb9", params).then(function(res) {
       alert("Success✅! Your message has been sent to Jai Vidyasagar R." + "\n" + "Thanks for visiting my site🖖")
     });
     document.getElementById("inputName").value = "";

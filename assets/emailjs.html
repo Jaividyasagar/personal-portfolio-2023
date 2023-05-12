@@ -1,0 +1,35 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+    th {
+        padding: 30px;
+    }
+    th:nth-child(odd) {
+        color: blue;
+    }
+    table {
+        margin: 30px;
+    }
+  </style>
+  <h2>Dear Jai Vidyasagar R,</h2>
+  <h3>📩You got a new message from "{{from_name}}".</h3>
+<table border="2">
+    <tr>
+        <th>NAME</th>
+        <th>{{from_name}}</th>
+    </tr>
+    <tr>
+        <th>EMAIL</th>
+        <th>{{email_id}}</th>
+    </tr>
+    <tr>
+        <th>SUBJECT</th>
+        <th>{{subject}}</th>
+    </tr>
+    <tr>
+        <th>MESSAGE</th>
+        <th>{{message}}</th>
+    </tr>
+  </table>
