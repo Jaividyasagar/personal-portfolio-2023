@@ -375,7 +375,7 @@ img {
 }
 
 .home__blob-img:hover{
-    /* transform: scale(1.03); */
+    /* transform: scale(1.03) ; */
     border: 1px solid var(--first-color-lighter);
     box-shadow: 0 0 40px var(--first-color-lighter);
 
