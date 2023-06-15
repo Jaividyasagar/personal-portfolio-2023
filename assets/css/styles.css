@@ -677,6 +677,11 @@ img {
 .skill-tech-imgs {
     width: 80px;
 }
+.skill-icon:hover {
+    cursor: pointer;
+    transition: all 0.4s;
+    transform: scale(1.2);
+}
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
     display: flex;
