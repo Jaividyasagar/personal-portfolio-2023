@@ -678,7 +678,7 @@ img {
     width: 80px;
 }
 .skill-icon:hover {
-    cursor: pointer;
+    /* cursor: pointer; */
     transition: all 0.4s;
     transform: scale(1.2);
 }
