@@ -2,7 +2,25 @@
   emailjs.init("6fCyooqccPtelidiH");
 })();
 
+window.addEventListener("load", homeReveal);
 
+function homeReveal() {
+  var reveals = document.querySelectorAll('.home-reveal');
+
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var revealTop = reveals[i].getBoundingClientRect().top;
+    var revealPoint = 150;
+
+    if(revealTop < windowHeight - revealPoint) {
+      reveals[i].classList.add('home-active-reveal');
+    }
+    else {
+      reveals[i].classList.remove('home-active-reveal');
+    }
+  }
+}
 window.addEventListener('scroll', reveal);
 
 function reveal() {

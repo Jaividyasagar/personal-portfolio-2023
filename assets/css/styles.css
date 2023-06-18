@@ -116,6 +116,17 @@ body.dark-theme {
     transform: translateY(0px);
     opacity: 1;
 }
+.home-reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.home-reveal.home-active-reveal {
+    transform: translateY(0px);
+    opacity: 1;
+}
 
 /*==================== BASE ====================*/
 * {
