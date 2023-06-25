@@ -56,6 +56,8 @@
     --z-tooltip: 10;
     --z-fixed: 100;
     --z-modal: 1000;
+
+    --preload-gif: url(../gif/loader.gif);
 }
 
 /* Font size for large devices */
@@ -84,9 +86,20 @@ body.dark-theme {
 --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
 --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 --github-icon: white;
+--preload-gif: url(../gif/blackloader.webp);
+/* --preload-gif: url(https://miro.medium.com/v2/resize:fit:1400/1*i1yv42RrOYhvw7U2MM4qCg.gif); */
 }
 
-
+#preloader {
+    /* background: #fff url(https://miro.medium.com/v2/resize:fit:1400/1*CsJ05WEGfunYMLGfsT2sXA.gif) no-repeat center center; */
+    /* background: #fff url(https://cdn.dribbble.com/users/1787505/screenshots/7300251/media/a351d9e0236c03a539181b95faced9e0.gif) no-repeat center center; */
+    background: var(--body-color) var(--preload-gif) no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
 /*========== Button Dark/Light ==========*/
 .nav__btns {
     display: flex;
