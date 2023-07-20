@@ -1126,6 +1126,7 @@ img {
     padding-bottom: 10px;
 }
 button {
+    cursor: pointer;
     font-family: inherit;
     font-size: 20px;
     background: royalblue;
